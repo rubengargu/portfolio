@@ -1,0 +1,124 @@
+.center{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.balloon{
+    border-radius: 5px;
+    background-color: chocolate;
+    color: floralwhite;
+    padding: 10px;
+    width: 120px;
+    margin-bottom: 25px;
+    margin-top: 80px;
+    transition: transform 0.3s;
+    position: relative;
+}
+.balloon-2{
+    border-radius: 5px;
+    background-color: chocolate;
+    color: floralwhite;
+    padding: 10px;
+    width: 120px;
+    margin-bottom: 25px;
+    margin-top: 80px;
+    transition: transform 0.3s;
+    position: relative;
+}
+.balloon-3{
+    border-radius: 5px;
+    background-color: chocolate;
+    color: floralwhite;
+    padding: 10px;
+    width: 120px;
+    margin-bottom: 25px;
+    margin-top: 80px;
+    transition: transform 0.3s;
+    position: relative;
+}
+.balloon-4{
+    border-radius: 5px;
+    background-color: chocolate;
+    color: floralwhite;
+    padding: 10px;
+    width: 120px;
+    margin-bottom: 25px;
+    margin-top: 80px;
+    transition: transform 0.3s;
+    position: relative;
+}
+.balloon:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    margin: 5px 0 0 110px; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 40px solid chocolate; 
+    transition: transform 0.3s;
+  }
+  
+.balloon-2:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    margin: 14px 0 0 110px; 
+    border-top: 18px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 40px solid chocolate; 
+    transition: transform 0.3s;
+  }
+  .balloon-3:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    margin: 5px 0 0 110px; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 40px solid chocolate; 
+    transition: transform 0.3s;
+  }
+  .balloon-4:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    margin: -8px 0 0 110px; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 40px solid chocolate; 
+    transition: transform 0.3s;
+  }
+  .balloon:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del globo al hacer hover */
+  }
+  
+  .balloon:hover:before {
+    transform: scale(1.1); /* Aumenta el tamaño de la flecha al hacer hover */
+  }
+  .balloon-2:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del globo al hacer hover */
+  }
+  
+  .balloon-2:hover:before {
+    transform: scale(1.1); /* Aumenta el tamaño de la flecha al hacer hover */
+  }
+  .balloon-3:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del globo al hacer hover */
+  }
+  
+  .balloon-3:hover:before {
+    transform: scale(1.1); /* Aumenta el tamaño de la flecha al hacer hover */
+  }
+  .balloon-4:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del globo al hacer hover */
+  }
+  
+  .balloon-4:hover:before {
+    transform: scale(1.1); /* Aumenta el tamaño de la flecha al hacer hover */
+  }
+  
+  
