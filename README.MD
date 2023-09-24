@@ -12,4 +12,5 @@
 <h2>Diario</h2>
 <h3>24/09</h3>
 <p>Después de varios días pensando, e intentando reunir tiempo, he podido dedicarle un rato a este inicio.</p>
-
+<p>Me gusta empezar las páginas por el encabezado, ya que es algo que el usuario verá siempre y una de las múltiples ventajas de bootstrap es que se pueden hacer de manera muy sencilla, De hecho, en su propia web hay varios ejemplos, pero la verdad es que en este caso quiero salirme de las clásicas, y he buscado más ejemplos
+<p>Haciendo el navbar me ha venido una pregunta: Cuanta información daré en la página principal. Y me ha hecho pensar que, quizás, el navbar no sea tan necesario. Vereis, había pensado en poner un dibujo que me represente y esto pueda enviar al usuario a diversas páginas. Si me lo planteo, realmente eso es un navbar, pero bastante más original,no? Por lo tanto, voy a buscar como hacerlo...</p>
