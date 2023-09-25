@@ -6,7 +6,7 @@ export const Navbar = () => {
 	return (
 		<header>
 		
-		<nav className="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0">
+		<nav className="navbar navbar-expand-lg navbar-light fixed-top mask-custom ">
 		  <div className="container">
 		
 			<button className="navbar-toggler" type="button" data-mdb-toggle="collapse"
@@ -17,44 +17,23 @@ export const Navbar = () => {
 			<div className="collapse navbar-collapse" id="navbarSupportedContent">
 			  <ul className="navbar-nav me-auto">
 				<li className="nav-item">
-				  <a className="nav-link" href="#!">Mis proyectos</a>
+				  <Link to ="who" className="nav-link" href="#!">Quien soy</Link>
 				</li>
 				<li className="nav-item">
-				  <a className="nav-link" href="#!">Features</a>
+				  <Link to="tech" className="nav-link" href="#!">Mis conocimientos</Link>
 				</li>
 				<li className="nav-item">
-				  <a className="nav-link" href="#!">Portfolio</a>
+				  <Link to="work" className="nav-link" href="#!">Mi experiencia laboral</Link>
 				</li>
 				<li className="nav-item">
-				  <a className="nav-link" href="#!">Reference</a>
+				  <Link to ="projects" className="nav-link" href="#!">Mis proyectos</Link>
 				</li>
 				<li className="nav-item">
-				  <a className="nav-link" href="#!">About</a>
+				  <Link to="contact" href="#!">Contacta conmigo</Link>
 				</li>
-				<li className="nav-item">
-				  <a className="nav-link" href="#!">Team</a>
-				</li>
-				<li className="nav-item">
-				  <a className="nav-link" href="#!">Contact</a>
-				</li>
+				
 			  </ul>
-			  <ul className="navbar-nav d-flex flex-row">
-				<li className="nav-item me-3 me-lg-0">
-				  <a className="nav-link" href="#!">
-					<i className="fas fa-shopping-cart"></i>
-				  </a>
-				</li>
-				<li className="nav-item me-3 me-lg-0">
-				  <a className="nav-link" href="#!">
-					<i className="fab fa-twitter"></i>
-				  </a>
-				</li>
-				<li className="nav-item me-3 me-lg-0">
-				  <a className="nav-link" href="#!">
-					<i className="fab fa-instagram"></i>
-				  </a>
-				</li>
-			  </ul>
+			 
 			</div>
 		  </div>
 		</nav>

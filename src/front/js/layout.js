@@ -15,6 +15,7 @@ import { Projects } from "./component/projects";
 import { Tech } from "./component/tech";
 import { WhoAm } from "./component/whoAm";
 import { Work } from "./component/work";
+import { Contact } from "./component/contact";
 
 
 
@@ -41,6 +42,7 @@ const Layout = () => {
                         <Route element ={<Tech/>} path="/tech" />
                         <Route element={<WhoAm/>} path="/whoAm" />
                         <Route element={<Work/>} path="/work" />
+                        <Route element={<Contact/>} path="/contact" />
                         
                     </Routes>
                     <Footer />

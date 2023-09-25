@@ -18,6 +18,9 @@
 <h5>Final del día</h5>
 <p>Hubo avances, como la creación de un navbar que necesitará algunas modificaciones, pero está ahí. También he creado el contenido principal, aunque cambiaré la foto, ya que no creo que refleje mi personalidad. Además, he agregado pequeños bocadillos que permiten al usuario navegar entre las páginas, ya que personalmente me parecen más visuales que las típicas pestañas. Por último, los bocadillos de la página principal tienen un pequeño efecto de zoom cuando el usuario pasa el cursor sobre ellos, que, sinceramente, me gusta.</p>
 <p>Como resumen del día, podemos decir que <em>la página está en pañales, pero al menos ha nacido</em>.</p>
+<h3>25/09</h3>
+<h5>Inicio del día</h5>
+<p>Con las páginas más importantes creadas, se me plantean dos opciones, o acabar de definir el navbar(que hacer con él y, si lo mantengo, como hacerlo) o empezar a llenar páginas de contenido. Ya veremos. De momento voy a arreglar un par de detalles del navbar que ensucian bastante la página.
 <h2>Traducción al inglés</h2>
 <h1>Rubén García's Portfolio Readme</h1>
 <p>First of all, welcome to my portfolio. The main goal here is for you to know who I am, what my skills are (both programming and personal), and to have a place to show exactly what I am capable of.</p>
@@ -39,5 +42,5 @@
 <h5>End of the day</h5>
 <p>There were some advancements, such as creating a navbar that will need some adjustments, but it's there. I've also created the main content, although I'll change the photo because I don't think it reflects my personality. Additionally, I've added small tooltips that allow the user to navigate between pages, as I personally find them more visual than the typical tabs. Lastly, the tooltips on the main page have a slight zoom effect when the user hovers over them, which I honestly like.</p>
 <p>As a summary of the day, we can say that <em>the page is in its infancy, but at least it has been born</em>.</p>
-
+<h3>
 
