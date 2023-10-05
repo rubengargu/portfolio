@@ -6,14 +6,15 @@ export const Navbar = () => {
 	return (
 		<header>
 		
-		<nav className="navbar navbar-expand-lg navbar-light fixed-top mask-custom ">
-		  <div className="container">
-		
-			<button className="navbar-toggler" type="button" data-mdb-toggle="collapse"
-			  data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-			  aria-label="Toggle navigation">
-			  <i className="fas fa-bars"></i>
-			</button>
+		<nav className="navbar navbar-expand-lg navbar-light mask-custom ">
+		  <div className="container nav-hamburger">
+			<div className="text-center">
+				<button className="navbar-toggler" type="button" data-mdb-toggle="collapse"
+			  	data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+			  	aria-label="Toggle navigation">
+			  	<i className="fas fa-bars"></i>
+				</button>
+			</div>
 			<div className="collapse navbar-collapse" id="navbarSupportedContent">
 			  <ul className="navbar-nav me-auto">
 				<li className="nav-item">
