@@ -10,12 +10,12 @@ import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
-import { Main } from "./component/main";
-import { Projects } from "./component/projects";
-import { Tech } from "./component/tech";
-import { WhoAm } from "./component/whoAm";
-import { Work } from "./component/work";
-import { Contact } from "./component/contact";
+import { Main } from "./pages/main";
+import { Projects } from "./pages/projects";
+import { Tech } from "./pages/tech";
+import { WhoAm } from "./pages/whoAm";
+import { Work } from "./pages/work";
+import { Contact } from "./pages/contact";
 
 
 
@@ -33,11 +33,11 @@ const Layout = () => {
                 <ScrollToTop>
                     <Navbar />
                     <Routes>
-                        <Route element={<Home />} path="/" />
+                        <Route element={<Main />} path="/" />
+                      
                         <Route element={<Demo />} path="/demo" />
                         <Route element={<Single />} path="/single/:theid" />
                         <Route element={<h1>Not found!</h1>} />
-                        <Route element={<Main />} path="/main" />
                         <Route element ={<Projects/>} path ="/projects" />
                         <Route element ={<Tech/>} path="/tech" />
                         <Route element={<WhoAm/>} path="/whoAm" />
